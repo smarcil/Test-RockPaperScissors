@@ -1,0 +1,17 @@
+{
+  "NumberOfMatch":  3,
+  "mouves": [
+    {
+      "IDName": "Rock",
+      "StrongerThan": [ "Scissors" ]
+    },
+    {
+      "IDName": "Scissors",
+      "StrongerThan": [ "Paper" ]
+    },
+    {
+      "IDName": "Paper",
+      "StrongerThan": [ "Rock" ]
+    }
+  ]
+}

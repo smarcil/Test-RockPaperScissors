@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+
+        <form method="post" action="@Url.Action("Index", "NewGame")">
+            <fieldset>
+                <p>
+                    <button type="submit" value="RandomAI" name="Player2Type">RandomAI</button>
+                </p>
+                <p>
+                    <button type="submit" value="TacticalAI" name="Player2Type">TacticalAI</button>
+                </p>
+                <input type="hidden" name="FormName" value="HomeForm" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

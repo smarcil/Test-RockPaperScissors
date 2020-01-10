@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+    if (ViewBag.winnerMatch == null)
+    {
+        ViewBag.winnerMatch = 0;
+    }
+    int roundWinned = Math.Abs(ViewBag.winnerMatch);
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @if (@ViewBag.roundNumber > @Model.NumberOfMatch)
+        {
+            <h1>The Winner is </h1>
+        }
+        else
+        {
+            <h1>Round @ViewBag.roundNumber of @Model.NumberOfMatch</h1>
+        }
+
+        @if (ViewBag.winnerMatch == 0)
+        {
+            <p>Equality</p>
+        }
+        else if (ViewBag.winnerMatch < 0)
+        {
+            <p>Player1 win by @roundWinned</p>
+        }
+        else
+        {
+            <p>Player2 win by @roundWinned</p>
+        }
+
+        @if (@ViewBag.roundNumber > 1)
+        {
+            <h2>Last Round Result</h2>
+            <p>Player 1 : @ViewBag.Player1Choice</p>
+            <p>Player 2 : @ViewBag.Player2Choice</p>
+            if (ViewBag.winner != null)
+            {
+                <p>Player @ViewBag.winner win</p>
+            }
+            else
+            {
+                <p>No winner</p>
+            }
+        }
+        @if (@ViewBag.roundNumber <= @Model.NumberOfMatch)
+        {
+            <form method="post">
+                <fieldset>
+                    <p>
+                        @{
+                            int i = 0;
+                            foreach (var mouve in Model.mouves)
+                            {
+                                <button type="submit" value="@(i++)" name="mouve">@mouve.IDName</button>
+                            }
+                        }
+                    </p>
+                    <p>
+                        <input type="hidden" name="Player1Type" value="Human" />
+                        <input type="hidden" name="Player2Type" value="@ViewBag.Player2" />
+                        <input type="hidden" name="roundNumber" value="@ViewBag.roundNumber" />
+                        <input type="hidden" name="NumberOfMatch" value="@Model.NumberOfMatch" />
+                        <input type="hidden" name="winnerMatch" value="@ViewBag.winnerMatch" />
+                        <input type="hidden" name="FormName" value="NewGameForm" />
+                    </p>
+                </fieldset>
+            </form>
+        }
+        @Html.ActionLink("Return", "Index", "Home", null, null)
+    </div>
+</body>
+</html>

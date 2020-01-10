@@ -1,0 +1,77 @@
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Rock Paper Scissors.dll.config
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Rock Paper Scissors.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Rock Paper Scissors.pdb
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csc.exe
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csc.exe.config
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csc.rsp
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csi.exe
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csi.exe.config
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\csi.rsp
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.AppContext.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Collections.Immutable.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Console.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Compression.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.FileSystem.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Pipes.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Reflection.Metadata.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.AccessControl.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Claims.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.ValueTuple.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Xml.XPath.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\vbc.exe
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\vbc.exe.config
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\vbc.rsp
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\VBCSCompiler.exe
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\VBCSCompiler.exe.config
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Microsoft.Web.Infrastructure.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Helpers.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Mvc.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Razor.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.Deployment.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.Razor.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Razor.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.Deployment.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Webpages.Razor.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Helpers.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\System.Web.Mvc.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Razor.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Webpages.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Webpages.Deployment.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Webpages.Razor.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Helpers.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\fr\System.Web.Mvc.resources.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csprojAssemblyReference.cache
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CopyComplete
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Newtonsoft.Json.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Newtonsoft.Json.xml
