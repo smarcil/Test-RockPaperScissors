@@ -67,11 +67,13 @@
                     </p>
                     <p>
                         <input type="hidden" name="Player1Type" value="Human" />
-                        <input type="hidden" name="Player2Type" value="@ViewBag.Player2" />
+                        <input type="hidden" name="Player2Type" value="@ViewBag.Player2Type" />
                         <input type="hidden" name="roundNumber" value="@ViewBag.roundNumber" />
                         <input type="hidden" name="NumberOfMatch" value="@Model.NumberOfMatch" />
                         <input type="hidden" name="winnerMatch" value="@ViewBag.winnerMatch" />
                         <input type="hidden" name="FormName" value="NewGameForm" />
+                        <input type="hidden" name="lastPlay1" value="@ViewBag.Player1Choice" />
+                        <input type="hidden" name="lastPlay2" value="@ViewBag.Player2Choice" />
                     </p>
                 </fieldset>
             </form>
