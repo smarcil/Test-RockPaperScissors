@@ -14,16 +14,13 @@ namespace Rock_Paper_Scissors.Controllers
 {
     public class NewGameController : Controller
     {
-        Config config;
+        public Config config;
+        public string lastPlay2;
 
         // GET: NewGame
         public ActionResult Index()
         {
-            //set the config
-            using (StreamReader sr = new StreamReader(Server.MapPath("~/Assets/Configs/config.json")))
-            {
-                config = JsonConvert.DeserializeObject<Config>(sr.ReadToEnd());
-            }
+            setConfig();
 
 
             if (Request.HttpMethod == "POST")
@@ -36,6 +33,8 @@ namespace Rock_Paper_Scissors.Controllers
                 {
                     ViewBag.winnerMatch = int.Parse( Request.Form["winnerMatch"].ToString() );
                 }
+
+                lastPlay2 = Request.Form["lastPlay2"];
 
                 //set round number
                 int roundNumber;
@@ -70,7 +69,15 @@ namespace Rock_Paper_Scissors.Controllers
             return View(config);
         }
 
-        Config.Mouve ChooseMovement(string PlayerType)
+        public void setConfig()
+        {
+            using (StreamReader sr = new StreamReader(Server.MapPath("~/Assets/Configs/config.json")))
+            {
+                config = JsonConvert.DeserializeObject<Config>(sr.ReadToEnd());
+            }
+        }
+
+        public Config.Mouve ChooseMovement(string PlayerType)
         {
             switch (PlayerType)
             {
@@ -90,16 +97,13 @@ namespace Rock_Paper_Scissors.Controllers
 
         Config.Mouve TacticalAIChoice()
         {
-            // get last choice
-            string lastPlay = Request.Form["lastPlay2"];
-            
             // create stronger move array if more than 3 choices
             List<Config.Mouve> mouves = new List<Config.Mouve>();
             foreach (Config.Mouve m in config.mouves)
             {
                 foreach(string str in m.StrongerThan)
                 {
-                    if(lastPlay == str)
+                    if(lastPlay2 == str)
                     {
                         mouves.Add(m);
                         break;
@@ -116,7 +120,7 @@ namespace Rock_Paper_Scissors.Controllers
             return mouves[rInt];
         }
 
-        void checkWinner(Config.Mouve mouve1, Config.Mouve mouve2)
+        public void checkWinner(Config.Mouve mouve1, Config.Mouve mouve2)
         {
             /*
              This behavior allows to have movement which is worth more powerful than other

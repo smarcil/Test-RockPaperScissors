@@ -26,16 +26,11 @@ D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Diagnostics.St
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Compression.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.FileSystem.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Pipes.AccessControl.dll
-D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Pipes.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Reflection.Metadata.dll
-D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.AccessControl.dll
-D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Claims.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Algorithms.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Encoding.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.Primitives.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Security.Principal.Windows.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Text.Encoding.CodePages.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.ValueTuple.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Xml.ReaderWriter.dll
@@ -75,3 +70,11 @@ D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.dl
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Newtonsoft.Json.dll
 D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\Newtonsoft.Json.xml
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Globalization.Calendars.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Net.Http.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Net.Sockets.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Test\Rock Paper Scissors\Rock Paper Scissors\bin\roslyn\System.Threading.Tasks.Extensions.dll
